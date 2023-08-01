@@ -1,9 +1,20 @@
 <template>
-
+  <Counter @count="counter()" />
   <router-view/>
 </template>
 <script>
+import Counter from "@/components/Counter.vue"
 
+export default {
+  components: {
+    Counter
+  },
+  methods: {
+    counter(event) {
+      console.log(event);
+    }
+  }
+}
 </script>
 <style>
 #app {

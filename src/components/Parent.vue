@@ -1,5 +1,6 @@
 <template>
   <div>
+    Parent
     <hr>
     <Child />
   </div>
