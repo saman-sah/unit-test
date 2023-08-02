@@ -2,7 +2,8 @@
   <div class="home">
     <Nav />
     <Parent />
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/intro.jpeg" style="max-width: 90%;">
+    <h1>Snapshot - Router</h1>
     <TodoApp />
   </div>
 </template>
