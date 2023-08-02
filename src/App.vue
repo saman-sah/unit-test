@@ -1,13 +1,16 @@
 <template>
   <Counter @count="counter()" />
+  <Snapshot msg="New Text Updated- Snapshot" />
   <router-view/>
 </template>
 <script>
 import Counter from "@/components/Counter.vue"
+import Snapshot from "@/components/Snapshot.vue"
 
 export default {
   components: {
-    Counter
+    Counter,
+    Snapshot
   },
   methods: {
     counter(event) {

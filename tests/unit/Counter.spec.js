@@ -6,7 +6,7 @@ describe("Counter.vue", ()=> {
         const wrapper= mount(Counter)
         await wrapper.find('button').trigger('click')
         await wrapper.find('button').trigger('click')
-        console.log(wrapper.emitted());
+        // console.log(wrapper.emitted());
 
         // First click
         expect(wrapper.emitted().count[0][0]).toBe(1)
